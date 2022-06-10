@@ -10962,3 +10962,17 @@ a.text-dark:focus {
   }
 }
 
+.btn {
+  padding: 0;
+}
+
+.btn a,
+.btn.btnP {
+  display: inline-block;
+  padding: 6px 12px !important;
+}
+
+.btn.btnP:hover {
+  text-decoration: underline;
+}
+

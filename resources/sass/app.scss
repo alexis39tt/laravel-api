@@ -6,3 +6,17 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+.btn {
+    padding: 0;
+    a, &.btnP {
+        display: inline-block;
+        padding: 6px 12px !important;
+    }
+
+    &.btnP {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
